@@ -114,5 +114,5 @@ Vec BSplineCurve::evaluate(Vec x, int ext)
     return y;
 }
 
-std::vector<std::vector<double>> BSplineCurve::eval_2d()
+
 } // namespace fitpackpp
