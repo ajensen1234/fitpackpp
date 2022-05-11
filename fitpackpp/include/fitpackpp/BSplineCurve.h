@@ -25,6 +25,8 @@ public:
     std::vector<double> knots() const { return mKnots; }
     std::vector<double> coeffs() const { return mCoeffs; }
 
+    
+
 private:
     int mDegree;
     std::vector<double> mKnots;
